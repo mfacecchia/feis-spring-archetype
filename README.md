@@ -79,5 +79,7 @@ mvn archetype:generate \
  -DarchetypeVersion=1.0.0
 ```
 
+This is currently the only way to build a project using this archetype, I will soon publish it to a registry to simplify the whole process.
+
 **NOTE:** You may be prompted to input some information about your
 new project, such as the GroupId and the ArtifactId.
