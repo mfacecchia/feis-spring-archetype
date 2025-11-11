@@ -28,10 +28,20 @@
                 <include>application.properties</include>
             </includes>
         </fileSet>
+        <fileSet filtered="true">
+            <directory></directory>
+            <includes>
+                <include>README.md</include>
+                <include>__gitignore__</include>
+            </includes>
+        </fileSet>
     </fileSets>
     <requiredProperties>
         <requiredProperty key="description">
             <defaultValue>Web application built using Feis Archetype</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="gitignore">
+            <defaultValue>.gitignore</defaultValue>
         </requiredProperty>
     </requiredProperties>
 </archetype-descriptor>
