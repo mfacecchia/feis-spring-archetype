@@ -1,25 +1,36 @@
+# ${appFullName}
 
-# Project Title
+## Table of Contents
 
-A brief description of what this project does and who it's for
+- [1.0 Brief Description](#10-brief-description)
+    - [1.1 Details](#11-details)
+- [2.0 Technologies](#20-technologies)
+- [3.0 Features](#30-features)
+- [4.0 How to use it](#40-how-to-use-it)
 
+## 1.0 Brief Description
 
-## Documentation
+### 1.1 Details
 
-[Documentation](https://linktodocumentation)
+This project was built following my personal [Style guides](https://github.com/mfacecchia/code-styleguide)
+you may want to follow to keep the whole codebase styling consistent.
 
+## 2.0 Technologies
 
-## Acknowledgements
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+![Java 21](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Maven 3.9.9](https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Spring Boot 3.5.7](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 
+## 3.0 Features
 
-## Authors
+## 4.0 How to use it
 
-- [Feis._.](https://www.github.com/mfacecchia)
+Building your new project is as easy as drinking a cup of coffee!
+All you have to do is to copy-paste these simple commands in the shell of
+your preference, and you'll be good to go!
 
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
+```zsh
+chmod +x mvnw && \
+./mvnw clean install && \
+java -jar target/${artifactId}-${version}.war
+```
