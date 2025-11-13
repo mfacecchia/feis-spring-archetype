@@ -43,5 +43,6 @@
         <requiredProperty key="gitignore">
             <defaultValue>.gitignore</defaultValue>
         </requiredProperty>
+        <requiredProperty key="appFullName"></requiredProperty>
     </requiredProperties>
 </archetype-descriptor>
