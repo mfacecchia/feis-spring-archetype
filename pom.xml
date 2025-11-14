@@ -27,4 +27,11 @@
         </extensions>
 	</build>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Maven Repository</name>
+            <url>https://maven.pkg.github.com/mfacecchia/archetype</url>
+        </repository>
+    </distributionManagement>
 </project>
